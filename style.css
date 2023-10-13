@@ -105,15 +105,18 @@ nav .fa-solid{
     .product p {
         font-size: 16px;
     }
-    .vertical-center {
-        margin: 0;
-        position: absolute;
-        padding: 12px 28px;
+    .container-1 {
+        height: 100px;
+        position: relative;
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .vertical-center {
+        padding: 12px 30px;
         background-color: #333;
-        top: 50%;
-        left: 44%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        text-align: center;
+        display: inline-block;
       }
  
 
@@ -181,17 +184,15 @@ h1 {
 .container-1 {
     height: 100px;
     position: relative;
+    text-align: center;
   }
   
   .vertical-center {
-    margin: 0;
-    position: absolute;
     padding: 12px 28px;
     background-color: #333;
-    top: 50%;
-    left: 44.5%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    text-align: center;
+    display: inline-block;
+
   }
   .btn-1{
     color: white;
